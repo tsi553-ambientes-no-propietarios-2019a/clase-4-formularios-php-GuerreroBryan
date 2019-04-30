@@ -1,5 +1,26 @@
-<?php
 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro de Usuario</title>
+</head>
+<body>
+	<form action="validarRegistro.php" method="post">
+		<div align="center">
+			<h1>Ingrese un usuario y una contraseña</h1>
+			<label>Usuario: </label>
+			<input type="text" name="usuario1" required="required"><br>
+			<label>Clave : </label>
+			<input type="password" name="clave1" required="required"><br>
+			<label>Repita la Clave : </label>
+			<input type="password" name="clave2" required="required"><br>
+			<input type="submit" name="ingresar">
+		</div>
+	</form>
+</body>
+</html>
+<?php
 /**
  * Problema Propuesto:
  * Desarrollar un formulario que simule el registro de un usuario (archivo index.php). 
