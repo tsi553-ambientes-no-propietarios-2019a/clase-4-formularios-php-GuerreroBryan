@@ -1,4 +1,27 @@
 <?php
+
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 3</title>
+</head>
+<body>
+	<form action="bienvenido.php" method="post">
+		<div align="center">
+		<label>Usuario: </label>
+		<input type="text" name="usuario" required="required"><br>
+		<label>Clave : </label>
+		<input type="password" name="clave" required="required"><br>
+		<input type="submit" name="ingresar">
+		</div>
+	</form>
+</body>
+</html>
+
+<?php
 /**
  * Crear un arreglo asociativo que almacene las claves de acceso de 5 usuarios de un sistema. Acceder a cada componente por su nombre.
  El arreglo debe tener el formato
